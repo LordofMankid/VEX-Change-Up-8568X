@@ -72,9 +72,15 @@ void opcontrol(void);
 #endif
 
 #ifdef __cplusplus
-#include "utilities/odometry.hpp"
 #include "globals.hpp"
+#include "utilities/odometry.hpp"
 #include "utilities/PID.hpp"
+#include "utilities/math.hpp"
+#include "control/drive/chassis.hpp"
+#include "control/drive/indexer.hpp"
+#include "control/drive/intake.hpp"
+#include "control/auton/auton.hpp"
+#include "control/auton/chassisAuton.hpp"
 /**
  * You can add C++-only headers here
  */

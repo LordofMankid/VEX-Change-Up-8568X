@@ -40,7 +40,7 @@ double correctionThreshold;
 rectCoord absTarget;
 rectCoord lastTarget;
 
-
+/*
 void translate(double targetDistance, double targetTheta, double targetOrientation, int maxSpeed){
 
   if(targetOrientation < 0)
@@ -63,6 +63,6 @@ void translate(double targetDistance, double targetTheta, double targetOrientati
   if(abs(voltageR) > maxSpeed)
     voltageR = maxSpeed;
 
-  setDrive(voltageY, voltageX, voltageR);
+  //setDrive(voltageY, voltageX, voltageR);
 
-}
+}*/
